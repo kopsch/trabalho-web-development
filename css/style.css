@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#FDFCDC;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    flex-direction: flex-start;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-menu {
+    display: flex;
+    background-color: #0081A7;
+    width: fit-content;
+    height: 700px;
+    margin: 0;
+    padding: 0px;
+    flex-direction: column;
+    position: relative;
+  }
+
+.flex-menu > picture{
+    padding: 7px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.flex-menu > nav {
+    padding: 7px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.flex-menu > nav > ul {
+    padding-inline-start: 10px;
+    background-color: #0081A7;
+    margin: 0;
+}
+
+.item-menu {
+    list-style: none;
+    width: 150px;
+    height: fit-content;
+    text-align: left;
+    margin: 0;
+}
+
+.active {
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    border-radius: 30px;
+    background-color: #FDFCDC;
+}
+
+.active a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color:#0081A7;
+    height: fit-content;
+}
+
+.item-menu a{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;    
+    height: fit-content;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    background-color: #0081A7;
+}
+
+li.item-menu a:hover {
+    background-color: #FDFCDC;
+    color: #0081A7;
+    border-radius: 30px;
+}
+
+.conteudo {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #FDFCDC;
+}
+
+.titulo {
+    width: 1100px;
+    padding: 2px;
+    height: fit-content;
+    background-color: #0081A7;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.titulo h4{
+    font-style: italic;
+}
+
+.texto {
+    padding: 20px;
+    background-color: #FDFCDC;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.texto h3{
+    color: #0081A7;
+}
+
+button {
+    background-color: #0081A7;
+    border-style: hidden;
+    border-color: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: #FDFCDC;
+    font-size: 16px;
+}
