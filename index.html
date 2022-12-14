@@ -1,17 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Teste</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/03adcac790.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home | DAINF</title>
+  </head>
+  <body>
+    <div class="fix-contact">
+      <a href="./components/forms/forms.html">
+        <span>CONTATO <i class="fa-solid fa-envelope"></i></span>
+      </a>
+    </div>
+
+    <img class="logo" src="images/logo-DAINF-7_1.png" />
+
+    <header class="header">
+      <div class="header__info">
+        <div class="social-media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+
+        <h1 class="">DAINF</h1>
+
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar__menu">
+          <li class="navbar__menu-item"><a href="./index.html">Home</a></li>
+          <li class="navbar__menu-item">
+            <a href="./components/dainf/dainf.html">Docentes</a>
+          </li>
+          <li class="navbar__menu-item"><a href="#">Ensino</a></li>
+          <li class="navbar__menu-item"><a href="#">TCC</a></li>
+          <li class="navbar__menu-item"><a href="#">Pesquisa</a></li>
+          <li class="navbar__menu-item"><a href="#">Extensão</a></li>
+          <li class="navbar__menu-item">
+            <a href="./components/faq/faq.html">FAQ Acadêmico</a>
+          </li>
+          <li class="navbar__menu-item">
+            <a
+              href="./components/atividades-complementares/atividades-complementares.html"
+              >Atividades Complementares</a
+            >
+          </li>
+          <li class="navbar__menu-item">
+            <a href="./components/vagas/vagas.html">Vagas de Estágio/Emprego</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="top">
+        <article class="template">
+          <div class="template__info">
+            <span class="template__info-tag"> DICAS </span>
+
+            <h2 class="template__info-subtitle">
+              5 maneiras de melhorar sua produtividade nos estudos
+            </h2>
+
+            <div class="template__info-meta">
+              <div class="template__info-author">
+                <img
+                  class="template__info-author-pic"
+                  src="./images/user.png"
+                />
+                <span class="template__info-author-name">Fulano da Silva</span>
+              </div>
+
+              <div class="template__info-date">
+                <i class="fa-regular fa-clock"></i>
+                <span>25/12/2022</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <aside class="aside">
+          <div class="aside-item">
+            <span class="aside-tag">DICAS</span>
+            <h3 class="aside-title">
+              5 maneiras de melhorar sua produtividade nos estudos
+            </h3>
+          </div>
+
+          <div class="aside-item">
+            <span class="aside-tag">RECURSOS</span>
+            <h3 class="aside-title">
+              10 Aplicativos produtivos para o seu smartphone
+            </h3>
+          </div>
+
+          <div class="aside-item">
+            <span class="aside-tag">GUIAS</span>
+            <h3 class="aside-title">
+              Como criar um plano de produtividade organizado para o ano
+            </h3>
+          </div>
+        </aside>
+      </div>
+
+      <div class="bottom">
+        <section class="articles">
+          <span class="articles-subtitle">Últimos artigos</span>
+
+          <h4 class="articles-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </h4>
+
+          <h4 class="articles-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </h4>
+
+          <h4 class="articles-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </h4>
+        </section>
+      </div>
+    </div>
+
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

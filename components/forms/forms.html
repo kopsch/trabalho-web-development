@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/03adcac790.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contato | DAINF</title>
+  </head>
+  <body>
+    <img class="logo" src="../../images/logo-DAINF-7_1.png" />
+
+    <header class="header">
+      <div class="header__info">
+        <div class="social-media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+
+        <h1 class="">DAINF</h1>
+
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar__menu">
+          <li class="navbar__menu-item"><a href="../../index.html">Home</a></li>
+          <li class="navbar__menu-item">
+            <a href="../dainf/dainf.html">Docentes</a>
+          </li>
+          <li class="navbar__menu-item"><a href="#">Ensino</a></li>
+          <li class="navbar__menu-item"><a href="#">TCC</a></li>
+          <li class="navbar__menu-item"><a href="#">Pesquisa</a></li>
+          <li class="navbar__menu-item"><a href="#">Extensão</a></li>
+          <li class="navbar__menu-item">
+            <a href="../faq/faq.html">FAQ Acadêmico</a>
+          </li>
+          <li class="navbar__menu-item">
+            <a
+              href="../atividades-complementares/atividades-complementares.html"
+              >Atividades Complementares</a
+            >
+          </li>
+          <li class="navbar__menu-item">
+            <a href="../vagas/vagas.html">Vagas de Estágio/Emprego</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="top">
+        <div class="info">
+          <div>
+            <h2 class="info__title">Entre em contato</h2>
+
+            <p class="info__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a
+              sollicitudin eros, id vehicula massa.
+            </p>
+
+            <span class="info__subject">Contate-nos via:</span>
+
+            <div class="info__contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span class="info__email">dainf-pg@utfpr.edu.br</span>
+              <br />
+              <i class="fa-solid fa-phone"></i>
+              <span class="info__phone"> (42) 3220-4827</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form__box">
+          <form class="form">
+            <div class="form__group">
+              <div class="form__group__label form__name">
+                <label for="name" class="name">Nome Completo</label>
+                <br />
+                <br />
+                <input placeholder="Ex. Pedro Henrique" type="text" id="name" />
+              </div>
+
+              <div class="form__group__label form__email">
+                <label for="email" class="email">Email</label>
+                <br />
+                <br />
+                <input
+                  placeholder="email@example.com"
+                  type="email"
+                  id="email"
+                />
+              </div>
+            </div>
+
+            <div class="form__group">
+              <div class="form__group__label form__phone">
+                <label for="phone" class="phone">Telefone</label>
+                <br />
+                <br />
+                <input placeholder="(99) 99999 - 9999" type="tel" id="phone" />
+              </div>
+
+              <div class="form__group__label form__subject">
+                <label for="subject" class="subject">Assunto</label>
+                <br />
+                <br />
+                <input placeholder="Ex. Estágio" type="text" id="subject" />
+              </div>
+            </div>
+
+            <div class="form__group">
+              <div class="form__group__label form__textarea">
+                <label for="message" class="message">Mensagem</label>
+                <br />
+                <br />
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  cols="33"
+                  placeholder="Mande-nos uma mensagem"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form__group">
+              <button class="form__button" type="submit">
+                Enviar Mensagem
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
